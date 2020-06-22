@@ -19,9 +19,11 @@ export class RepositoriesComponent implements OnInit {
 
     }
 
-    constructor(public gitRepoRequest: SearchServiceService ) { }
+    constructor(public gitRepoRequest:  SearchServiceService) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit() {
+     
+      this.gitRepoRequest.gitRepos(this.searchRepo);
 
+}
 }
