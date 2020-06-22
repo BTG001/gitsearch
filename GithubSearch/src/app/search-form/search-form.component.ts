@@ -2,6 +2,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Search } from '../search';
 import { Repository } from '../repository';
 import { User } from '../user';
+import { SearchServiceService } from '../search-service.service';
 
 @Component({
   selector: 'app-search-form',
@@ -32,10 +33,21 @@ export class SearchFormComponent implements OnInit {
         this.searchMe  = username;
         this.ngOnInit();
     }
-
-  constructor() { }
-
-  ngOnInit(): void {
+  
+  
+  constructor(public githubUserRequest: SearchServiceService, public userRepos: SearchServiceService) { }
+  
+  ngOnInit() {
+      this.githubUserRequest.githubUser(this.searchMe);
+      this.users = this.githubUserRequest.users;
+      this.userRepos.gitUserRepos(this.searchMe);
+      console.log(this.userRepos);
   }
-
-}
+  
+  
+    searchRepos() {
+        this.searchRepo = '';
+      
+  
+    }
+  }
