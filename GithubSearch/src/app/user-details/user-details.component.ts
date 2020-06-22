@@ -9,6 +9,8 @@ import { User } from '../user';
 })
 export class UserDetailsComponent implements OnInit {
 
+  users: User ;
+
   constructor() { }
 
   ngOnInit(): void {
