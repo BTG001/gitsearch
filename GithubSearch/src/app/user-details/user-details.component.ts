@@ -10,6 +10,7 @@ import { User } from '../user';
 export class UserDetailsComponent implements OnInit {
 
   users: User ;
+  repository: Repository;
 
   constructor() { }
 
