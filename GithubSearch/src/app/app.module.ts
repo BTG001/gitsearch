@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
+import { UpperCasePipe } from './upper-case.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     RepositoriesComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    UpperCasePipe
   ],
   imports: [
     BrowserModule,
