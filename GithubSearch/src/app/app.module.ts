@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { SearchServiceService } from './search-service.service';
 import { HttpClientModule } from '@angular/common/http';
+import { NgProgressModule } from '@ngx-progressbar/core';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -26,7 +28,8 @@ import { SearchFormComponent } from './search-form/search-form.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgProgressModule.forRoot(),
   ],
   providers: [SearchServiceService],
   bootstrap: [AppComponent]
