@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Search } from '../search';
+import { Repository } from '../repository';
+import { User } from '../user';
 
 @Component({
   selector: 'app-search-form',
@@ -7,6 +9,29 @@ import { Search } from '../search';
   styleUrls: ['./search-form.component.css']
 })
 export class SearchFormComponent implements OnInit {
+  searchInfo = new Search('');
+    @Output() getName = new EventEmitter<Search>();
+
+    searchFor(data){
+        this.getName.emit(data.value.find);
+        console.log(data.value.find)
+        data.reset();
+    }
+
+    public searchMe = '';
+    public githubUser: string;
+  
+    users: User ;
+    repository: Repository;
+    public searchRepo: string;
+
+  
+  
+    findUser(username) {
+        this.githubUser = '';
+        this.searchMe  = username;
+        this.ngOnInit();
+    }
 
   constructor() { }
 
