@@ -13,6 +13,8 @@ const routes: Routes = [
   { path:'**', component: NotFoundComponent},
   {path: '',redirectTo: '/users', pathMatch: 'full'},
 
+  { path: '', redirectTo:"/users", pathMatch:"full"},
+
 ];
 
 @NgModule({
