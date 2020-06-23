@@ -1,27 +1,40 @@
 # GithubSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+This is a website that is used to search for github usernames and also repositories
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
 
-## Code scaffolding
+## Author
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This web application was created and authored by Bruno Towett
 
-## Build
+## Technology Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+ * This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+ * HTML
+ * CSS
+ * Typescript
+ * Bootstrap
+ * Visual Studio Code
+ * Terminal(Command Line Interface)
 
-## Running unit tests
+## Setup Instructions
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To run this application:
+* Clone repository on Local Machine 'git clone https://github.com/BTG001/github-search.git'
+* cd into directory 'cd GithubSearch'
+* ng serve to launch it on the local server
 
-## Running end-to-end tests
+## Github Pages
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Here is a link to the live site on Github Pages
 
-## Further help
+## Contact Information
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+You can reach out to me via email: brunokipkorir2@gmail.com
+
+## Licence
+
+This project is licensed under the terms of the MIT license. Copyright (c) 2020 Bruno Towett
