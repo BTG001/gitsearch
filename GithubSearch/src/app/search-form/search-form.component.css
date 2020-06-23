@@ -14,7 +14,6 @@ input[type=submit] {
  background-color: #056b5b;
  color: white;
  text-align: center;
- /* width: 50%; */
 }
 
 
@@ -25,15 +24,20 @@ button {
  margin: 8px 0;
  border: none;
  cursor: pointer;
- /* width: 100%; */
  opacity: 0.9;
 }
 
 
 
 form {
- background-color: rosybrown;
+ background-color: lightgray;
  padding: 20px;
  width: 100vh;
-  /*height: 100%; */
+ margin-bottom: 5%;
+}
+
+#heading {
+  color: black;
+  text-shadow: 2px 2px 5px dodgerblue;
+  font-weight: bold;
 }
