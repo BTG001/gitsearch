@@ -23,7 +23,7 @@ This web application was created and authored by Bruno Towett
 ## Setup Instructions
 
 To run this application:
-* Clone repository on Local Machine 'git clone https://github.com/BTG001/github-search.git'
+* Clone repository on Local Machine 'git clone https://github.com/BTG001/gitsearch.git'
 * cd into directory 'cd GithubSearch'
 * ng serve to launch it on the local server
 
