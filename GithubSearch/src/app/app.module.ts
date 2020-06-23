@@ -15,6 +15,7 @@ import { RepositoriesComponent } from './repositories/repositories.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { UpperCasePipe } from './upper-case.pipe';
 import { SearchFormComponent } from './search-form/search-form.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SearchFormComponent } from './search-form/search-form.component';
     RepositoriesComponent,
     UserDetailsComponent,
     UpperCasePipe,
-    SearchFormComponent
+    SearchFormComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

@@ -1,8 +1,17 @@
-.navbar-nav a{
-  color: blue;
-  margin-left: 50%;
+.navbar-dark a {
+  /*float: left;*/
+  display: block;
+  color: dodgerblue;
+  text-align: center;
+  padding: 15px 17px;
+  font-size: 20px;
+  text-align: center;
 }
 
-#head .h1 {
-  margin-left: 5%;
+
+* {box-sizing: border-box;}
+
+.navbar-dark {
+  overflow: hidden;
+  background-color: pink;
 }

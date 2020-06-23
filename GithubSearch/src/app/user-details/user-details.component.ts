@@ -11,7 +11,7 @@ import { SearchServiceService } from '../search-service.service';
 })
 export class UserDetailsComponent implements OnInit {
 
-  public searchMe = 'Imaraika';
+  public searchMe = 'BTG001';
   public githubUser: string;
 
 
