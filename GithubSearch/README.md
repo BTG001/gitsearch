@@ -29,7 +29,7 @@ To run this application:
 
 ## Github Pages
 
-Here is a link to the live site on Github Pages
+Here is a link to the live site on Github Pages 'https://btg001.github.io/gitsearch/'
 
 ## Contact Information
 
